@@ -1,0 +1,23 @@
+@import "variables";
+ul{list-style: none;overflow: hidden;}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+.content{
+  background: $backgroundColor;
+  max-width: 1480px;
+  min-height: 800px;
+
+  padding: 25px;
+  margin: 25px auto;
+
+  border-radius: 2px;
+  overflow: hidden;
+}
